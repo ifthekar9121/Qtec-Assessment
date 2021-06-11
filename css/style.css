@@ -1,0 +1,120 @@
+/*====== Poppins Font File =====*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/*====== Global Css =====*/
+*{
+	margin: 0;
+}
+body{
+	background: #fafafa;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+}
+h1{
+	font-weight: 600;
+	color: hsl(234, 12%, 34%);
+}
+p{
+	font-weight: 400;
+	color: hsl(229, 6%, 66%);
+}
+
+/*====== Heading Section =====*/
+.heading-section{
+	padding: 50px 0;
+	text-align: center;
+}
+.heading-section h2{
+	font-weight: 200;
+	font-size: 36px;
+	color: hsl(234, 12%, 34%);
+}
+.heading-section h1{
+	font-size: 36px;
+}
+.heading-section p{
+	margin-top: 17px;
+	padding: 0 68px;
+}
+
+/*====== Content Section =====*/
+.content-section{
+	padding: 130px 0 50px;
+}
+.block-content{
+	height: 230px;
+    width: 348px;
+    padding: 25px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 10px hsl(180, 38%, 86%);
+}
+.block-content img{
+	margin-left: 234px;
+	margin-top: 18px;
+}
+.block-content h1{
+	font-size: 23px;
+}
+.supervisor .block-content{
+	margin-left: 100px;
+	border-top: 4px solid hsl(180, 62%, 55%);
+}
+.team-builder .block-content{
+	margin-top: -130px;
+    margin-left: 35px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+.karma .block-content{
+	margin: 30px 0px 0px 35px;
+	border-top: 4px solid hsl(34, 97%, 64%);
+}
+.calculator .block-content{
+	margin-left: -30px;
+	border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+/*====== Responsive =====*/
+@media only screen and (max-width: 375px){
+	body{
+		width: 123%;
+	}
+	.heading-section h2 {
+    	font-size: 32px;
+	}
+	.heading-section h1 {
+    	font-size: 32px;
+	}
+	.heading-section p {
+	    padding: 0 5px;
+	    font-size: 20px;
+	}
+	.content-section {
+	    padding: 0px 0 50px;
+	}
+	.block-content {
+	    width: 398px;
+	    height: 270px;
+	}
+	.block-content h1{
+		font-size: 27px;
+	}
+	.block-content p{
+		font-size: 18px;
+	}
+	.block-content img {
+	    margin-left: 270px;
+	    margin-top: 30px;
+	}
+	.supervisor .block-content {
+	    margin-left: 20px; 
+	}
+	.team-builder .block-content {
+	    margin: 30px 0px 0px 20px;
+	}
+	.karma .block-content {
+	    margin: 30px 0px 0px 20px;
+	}
+	.calculator .block-content{
+	    margin: 30px 0px 0px 20px;
+	}	
+}
